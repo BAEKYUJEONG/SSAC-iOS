@@ -16,6 +16,10 @@
 
 
 
+
+
+
+
 #### 2021-09-29
 
 > iOS 버전 & Code 작성
@@ -33,3 +37,37 @@
     - Button.setTitle
 
 ###### 실습 파일 - BAMIN
+
+
+
+
+
+
+
+#### 2021-09-30
+
+> Swift 기본 문법 & Code 작성
+
+- 문법
+
+  - optional 타입
+  - null을 nil이라고 한다.
+  - 배열 표기
+  - Dictionary 사용법
+
+- Text Field 작성
+
+  - 여러 항목을 선택하고 Embed in View를 선택할 수 있다. (하단 다운로드 모양)
+
+  - StackView를 이용한 정렬
+    - hide 시 공간을 나머지 object들끼리 나눠 갖는다.
+    - 일반적인 hide 시에는 공간이 그대로 남고, 그 object만 숨겨진다.
+
+  - Constraints 위치 설정 (하단 네모 두개 모양)
+  - Constraints 크기 설정 (하단 네모 하나 모양)
+  - Tap Gesture Recognizer를 등록하여 Tap 시 키보드가 내려가게 한다.
+    - SignUpViewController를 cocoa touch 파일로 만든다.
+    - Tap Gesture Recognizer를 끌어와 함수 등록한다.
+    - view.endEditing(true)
+
+###### 실습 파일 - MyPlayground, BAMIN
