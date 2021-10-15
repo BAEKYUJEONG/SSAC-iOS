@@ -24,8 +24,8 @@
 
 * 5일차 - 2021.10.05
 * 6일차 - 2021.10.06
-* [7일차 - 2021.10.07](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/7일차_%202021.10.07.md)
-* [8일차 - 2021.10.08](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/8일차_%202021.10.08.md)
+* [7일차 - 2021.10.07](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/7일차_2021.10.07.md)
+* [8일차 - 2021.10.08](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/8일차_2021.10.08.md)
 
 
 
@@ -33,8 +33,8 @@
 
 ## 📍 1주차
 
-* [1일차 - 2021.09.28](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/1일차_%202021.09.28.md)
-* [2일차 - 2021.09.29](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/2일차_%202021.09.29.md)
-* [3일차 - 2021.09.30](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/3일차_%202021.09.30.md)
-* [4일차 - 2021.10.01](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/4일차_%202021.10.01.md)
+* [1일차 - 2021.09.28](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/1일차_2021.09.28.md)
+* [2일차 - 2021.09.29](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/2일차_2021.09.29.md)
+* [3일차 - 2021.09.30](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/3일차_2021.09.30.md)
+* [4일차 - 2021.10.01](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/4일차_2021.10.01.md)
 
