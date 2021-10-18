@@ -12,11 +12,18 @@
 
 <br></br>
 
+## 📍 4주차
+
+* [13일차 - 2021.10.18](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/13일차_2021.10.18.md)
+
+<br></br>
+
 ## 📍 3주차
 
 * [9일차 - 2021.10.12](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/9일차_2021.10.12.md)
 * 10일차 - 2021.10.13
 * 11일차 - 2021.10.14
+* 12일차 - 2021.10.15
 
 <br></br>
 
