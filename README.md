@@ -2,7 +2,7 @@
 
 <left><img width="400" src="https://user-images.githubusercontent.com/70905219/135050840-7aaf40f5-4c63-4d2b-b38a-7223344ddef4.png" alt="1" style="zoom:100%;"></left>
 
-**`과정소개`:** [SSAC 홈페이지](https://ssac.seoul.kr/course/active/detail.do)
+**`과정소개` :** [SSAC 홈페이지](https://ssac.seoul.kr/course/active/detail.do)
 
 <br></br>
 
@@ -16,6 +16,7 @@
 
 * [13일차 - 2021.10.18](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/13일차_2021.10.18.md)
 * [14일차 - 2021.10.19](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/14일차_2021.10.19.md)
+* [15일차 - 2021.10.20](https://github.com/BAEKYUJEONG/SSAC_iOS/blob/main/TIL/15일차_2021.10.20.md)
 
 <br></br>
 
