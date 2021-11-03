@@ -85,6 +85,20 @@ class ShoppingViewController: UIViewController {
         print(tasks[selectButton.tag].star, selectButton.tag)
     }
     
+    @IBAction func sortButtonClicked(_ sender: UIButton) {
+        showAction {
+            self.tasks = self.localRealm.objects(UserList.self).sorted(byKeyPath: "check", ascending: true)
+            self.shoppingTableView.reloadData()
+        } starAction: {
+            self.tasks = self.localRealm.objects(UserList.self).sorted(byKeyPath: "star", ascending: false)
+            self.shoppingTableView.reloadData()
+        } titleAction: {
+            self.tasks = self.localRealm.objects(UserList.self).sorted(byKeyPath: "list")
+            self.shoppingTableView.reloadData()
+        }
+        
+    }
+    
 }
 
 extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource {
