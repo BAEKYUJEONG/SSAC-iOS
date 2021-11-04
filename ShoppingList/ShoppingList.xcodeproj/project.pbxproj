@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6853AA9227390D02007ED148 /* ActionSheet+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853AA9127390D02007ED148 /* ActionSheet+Extension.swift */; };
+		6853AA942739130B007ED148 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6853AA932739130B007ED148 /* Setting.storyboard */; };
+		6853AA98273915E6007ED148 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6853AA97273915E6007ED148 /* SettingViewController.swift */; };
 		68757431273188D000C39EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68757430273188D000C39EB9 /* AppDelegate.swift */; };
 		68757433273188D000C39EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68757432273188D000C39EB9 /* SceneDelegate.swift */; };
 		68757435273188D000C39EB9 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68757434273188D000C39EB9 /* ShoppingViewController.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		6853AA9127390D02007ED148 /* ActionSheet+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ActionSheet+Extension.swift"; sourceTree = "<group>"; };
+		6853AA932739130B007ED148 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		6853AA97273915E6007ED148 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		6875742D273188D000C39EB9 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68757430273188D000C39EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68757432273188D000C39EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6853AA952739131D007ED148 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				687574592733DB1400C39EB9 /* ShoppingTableViewCell.swift */,
+				68757434273188D000C39EB9 /* ShoppingViewController.swift */,
+				6853AA97273915E6007ED148 /* SettingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6853AA9627391335007ED148 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				68757436273188D000C39EB9 /* Main.storyboard */,
+				6853AA932739130B007ED148 /* Setting.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		68757424273188D000C39EB9 = {
 			isa = PBXGroup;
 			children = (
@@ -68,13 +91,12 @@
 		6875742F273188D000C39EB9 /* ShoppingList */ = {
 			isa = PBXGroup;
 			children = (
+				6853AA9627391335007ED148 /* StoryBoard */,
+				6853AA952739131D007ED148 /* ViewController */,
 				68757430273188D000C39EB9 /* AppDelegate.swift */,
-				6853AA9127390D02007ED148 /* ActionSheet+Extension.swift */,
 				68757432273188D000C39EB9 /* SceneDelegate.swift */,
-				68757434273188D000C39EB9 /* ShoppingViewController.swift */,
-				687574592733DB1400C39EB9 /* ShoppingTableViewCell.swift */,
+				6853AA9127390D02007ED148 /* ActionSheet+Extension.swift */,
 				6875745B2733E18700C39EB9 /* RealmModel.swift */,
-				68757436273188D000C39EB9 /* Main.storyboard */,
 				68757439273188D100C39EB9 /* Assets.xcassets */,
 				6875743B273188D100C39EB9 /* LaunchScreen.storyboard */,
 				6875743E273188D100C39EB9 /* Info.plist */,
@@ -152,6 +174,7 @@
 				6875743D273188D100C39EB9 /* LaunchScreen.storyboard in Resources */,
 				6875743A273188D100C39EB9 /* Assets.xcassets in Resources */,
 				68757438273188D000C39EB9 /* Main.storyboard in Resources */,
+				6853AA942739130B007ED148 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +190,7 @@
 				6875745A2733DB1400C39EB9 /* ShoppingTableViewCell.swift in Sources */,
 				68757431273188D000C39EB9 /* AppDelegate.swift in Sources */,
 				6875745C2733E18700C39EB9 /* RealmModel.swift in Sources */,
+				6853AA98273915E6007ED148 /* SettingViewController.swift in Sources */,
 				68757433273188D000C39EB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

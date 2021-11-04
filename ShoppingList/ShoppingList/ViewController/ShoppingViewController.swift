@@ -30,6 +30,8 @@ class ShoppingViewController: UIViewController {
         addView.backgroundColor = .systemGray6
         addView.layer.cornerRadius = 12
         addTextField.backgroundColor = .systemGray6
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "icon_setting"), style: .plain, target: self, action: #selector(settingButtonClicked))
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -99,6 +101,23 @@ class ShoppingViewController: UIViewController {
         
     }
     
+    @objc func settingButtonClicked() {
+        // 1. storyboard
+        let sb = UIStoryboard(name: "Setting", bundle: nil)
+        
+        // 2. viewcontroller
+        let vc = sb.instantiateViewController(withIdentifier: SettingViewController.identifier) as! SettingViewController
+        
+        // 2-1. navController embed
+        let navigation = UINavigationController(rootViewController: vc)
+        
+        // 2-2. present 방식(fullscreen)
+        navigation.modalPresentationStyle = .fullScreen
+        
+        // 3. present
+        present(navigation, animated: true, completion: nil)
+        
+    }
 }
 
 extension ShoppingViewController: UITableViewDelegate, UITableViewDataSource {
