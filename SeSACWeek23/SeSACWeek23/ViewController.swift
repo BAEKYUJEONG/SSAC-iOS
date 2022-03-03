@@ -15,7 +15,23 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        a()
+        b()
+        c()
+        
         // firstTextField.accessibilityIdentifier = "firstTextField"
+    }
+    
+    func a() {
+        
+    }
+    
+    func b() {
+        
+    }
+    
+    func c() {
+        
     }
 
     func calculateTextFieldTextCount() -> Int {

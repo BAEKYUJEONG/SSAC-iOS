@@ -13,11 +13,13 @@ class ValidatorTests: XCTestCase {
     var sut: Validator!
 
     override func setUpWithError() throws {
+        try super.setUpWithError()
         sut = Validator()
     }
 
     override func tearDownWithError() throws {
         sut = nil
+        try super.tearDownWithError()
     }
 
     func testValidator_validID_ReturnTrue() throws {
